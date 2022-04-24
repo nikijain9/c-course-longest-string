@@ -20,22 +20,3 @@ int main(int argc, char* argv[]) {
 
     return EXIT_SUCCESS;
 }
-
-/*
-    for ( int n = 1; n < argc; n++){
-        if ( n > 1 ){
-            fputs(" ", stdout);
-        }
-    fputs(argv[n], stdout);
-    }
-
-int n = 1;
-    while ( argc > n){
-        if ( n > 1 ){
-            fputs(" ", stdout);
-        }
-        fputs(argv[n], stdout);
-        n++;
-    }
-*/
-
